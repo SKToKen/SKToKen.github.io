@@ -9,7 +9,7 @@
 
 .main{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: black;
     
 }
@@ -34,7 +34,7 @@
 .main h5{
     font-size:2rem;
     text-align: center; 
-    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top:25px;
 }
 .main p{
@@ -60,7 +60,6 @@
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    
     margin-bottom: 50px;
     background-color: pu;
     
@@ -212,4 +211,30 @@
     transform: translateY(4px);
   }
 
-
+  .timer__items {
+    display: flex;
+    font-size: 48px;
+    margin:0px 600px;
+  }
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+  }
+  .timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+  }
