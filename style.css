@@ -27,14 +27,23 @@
     color:white; 
 }
 .main h1{
-    font-size:4rem;
+    font-size:3rem;
     text-align: center; 
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Anton', sans-serif;
+}
+.main h5{
+    font-size:2rem;
+    text-align: center; 
+    font-family: 'Anton', sans-serif;
+    margin-top:25px;
 }
 .main p{
     margin-top:10px;
     font-size:1.5rem;
-    font-family:'Montserrat';
+    font-family: 'Anton', sans-serif;
+    word-wrap: break-word;
+    width: 900px;
+    margin:0px 300px;
     
 }
 .info{
@@ -42,16 +51,16 @@
     width: 100%;
     margin-left:auto;
     margin-right: auto;
-    background-color: rgb(121, 52, 115);
+    background-color: rgb(255, 255, 255);
 }
 
 .info h2{
     font-size: 3em;
     color:black;
-    font-family: 'Montserrat';
+    font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 2px 2px 2px rgb(255, 94, 255);
+    
     margin-bottom: 50px;
     background-color: pu;
     
@@ -59,10 +68,10 @@
 .info h3{
     font-size: 3em;
     color:black;
-    font-family: 'Montserrat';
+    font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 2px 2px 2px rgb(255, 94, 255);
+    
     margin-bottom: 50px;
     background-color: pu;
     margin-top:50px
@@ -90,7 +99,7 @@
     top:50%;
     transform: translate(0,-50%);
     color:white;
-    font-family:'Montserrat';
+    font-family: 'Anton', sans-serif;
 }
 .info2{
     height:100vh;
@@ -103,7 +112,7 @@
 .info2 h2{
     font-size: 3em;
     color:white;
-    font-family: 'Montserrat';
+    font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     text-align: center;
     text-shadow: 3px 3px 3px purple;
@@ -125,47 +134,56 @@
     display: inline-block;
     margin: 0 40px;
     border-radius: 50px;
-    background: #000 url(3.gif) 
-          no-repeat right bottom;
+    background: rgb(255, 255, 255) url(3.gif);
+    background-color:rgba(0,0,0,.3); 
+          
 }
 .card2 p{
     text-align: center;
-    font-size:2.5em;
+    font-size:3em;
     position:relative;
     top:50%;
     transform: translate(0,-50%);
-    color:black;
-    font-family:'Montserrat';
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px 3px black;
+    
+   
 }
 .card2 p2{
-    text-align: center;
+    text-align: Left;
     font-size:1em;
     position:relative;
-    top:50%;
     transform: translate(0,-50%);
-    color:black;
-    font-family:'Montserrat';
-    margin: 40px;
+    color:burlywood;
+    font-family:'Comfortaa', cursive;
+    margin:60px;
+    
+   
 }
 .card2 p3{
-    text-align: center;
+    text-align: left;
     font-size:1em;
     position:relative;
-    top:50%;
+    margin:60px;
     transform: translate(0,-50%);
-    color:black;
-    font-family:'Montserrat';
-    margin: 40px;
+    color:burlywood;
+    font-family:'Comfortaa', cursive;
+    
+    
+   
 }
 .card2 p4{
-    text-align: center;
+    text-align: left;
     font-size:1em;
     position:relative;
-    top:50%;
+    margin:90px;
     transform: translate(0,-50%);
-    color:black;
-    font-family:'Montserrat';
-    margin: 40px;
+    color:burlywood;
+    font-family:'Comfortaa', cursive;
+    margin: 60px;
+    
+   
 }
 
 .button {
@@ -177,7 +195,7 @@
     margin: 15px 680px;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    font-family:'Montserrat';
+    font-family:'Comfortaa', cursive;
     width: 10%;
     height: 50px;
     border-radius: 50px;
