@@ -10,14 +10,14 @@
 .main{
     width: 100%;
     height: 90vh;
-    background-color: black;
+    background: black;
     
 }
 
 .photo img{
     padding:15px;
     float:right;
-    background-color: #000;
+    
     
 }
 .text-main{
@@ -29,7 +29,7 @@
 .main h1{
     font-size:3rem;
     text-align: center; 
-    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .main h5{
     font-size:2rem;
@@ -43,7 +43,7 @@
     font-family: 'Anton', sans-serif;
     word-wrap: break-word;
     width: 900px;
-    margin:0px 300px;
+    margin:0px 20%;
     
 }
 .info{
@@ -51,7 +51,8 @@
     width: 100%;
     margin-left:auto;
     margin-right: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: blanchedalmond;
+    
 }
 
 .info h2{
@@ -88,14 +89,14 @@
     color:black;
     background-color: black;
     display: inline-block;
-    margin: 0 50px;
+    margin: 100px 50px;
     border-radius: 50px;
 }
 .card p{
     text-align: center;
     font-size:2.5em;
     position:relative;
-    top:50%;
+    top:35%;
     transform: translate(0,-50%);
     color:white;
     font-family: 'Anton', sans-serif;
@@ -214,7 +215,7 @@
   .timer__items {
     display: flex;
     font-size: 48px;
-    margin:0px 600px;
+    margin:0px 80vh;
   }
   .timer__item {
     position: relative;
@@ -238,3 +239,59 @@
     position: absolute;
     right: -15px;
   }
+
+@media(max-width:1200px){
+      .main{
+          max-width: 10000px;
+      }
+      .main p{
+        margin-top:10px;
+        font-size:1rem;
+        font-family: 'Anton', sans-serif;
+        word-wrap: break-word;
+        width: 100%;
+        margin:0px 0px;
+    }
+    .timer__items {
+        display: flex;
+        font-size: 48px;
+        margin:0px 8%;
+      }
+    .info{
+        height:100vh;
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+        background-color: blanchedalmond;
+        
+    }
+    .info h2{
+        font-size: 3em;
+        color:black;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 50px;
+        background-color: pu;
+        
+    }
+    .container{
+        width: 100%;
+        height: 200vh;
+        
+    }
+    .card{
+        min-height: 10em;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .card p{
+        text-align: left;
+        font-size:0.1em;
+        position:relative;
+        top:35%;
+        transform: translate(0,-50%);
+        color:black;
+        font-family: 'Anton', sans-serif;
+  }
+}
